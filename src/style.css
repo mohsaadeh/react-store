@@ -1,0 +1,294 @@
+.headernav{
+    width: 100%;
+    height: 70px;
+    margin: 10px auto;
+    background: #616789;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+.lineTop {
+    width: 98%;
+    margin: 2px auto;
+}
+
+.line1 {
+    width: 100%;
+    border-top: 3.2px solid #62CBC9;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.line2 {
+    width: 100%;
+    border-top: 3.2px solid #616789
+}
+
+.logoHeader {
+    width: 100%;
+    display: flex;
+}
+
+    .logoHeader a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+    }
+
+        .logoHeader a img {
+            width: 49%;
+        }
+
+
+@media screen and (max-width: 480px) {
+    .logoHeader a {
+        justify-content: start;
+        margin: 10px;
+    }
+}
+
+
+.SearchTop {
+    display: flex;
+    width: 30%;
+}
+
+.SearchDiv {
+    width: 50%;
+    position: relative;
+}
+
+    .SearchDiv .textSearch {
+        background-color: #ededed;
+        padding-left: calc(50px / 5);
+        padding-right: calc(50px / 5);
+        border: 0;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 0;
+        transition: all .5s;
+        box-sizing: border-box;
+        outline: none;
+        color: #7A7A7A;
+        -webkit-appearance: textfield;
+        outline-offset: -2px;
+        flex-basis: 100%;
+        width: 100%;
+        border-radius: 15px;
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+/*            background-image: url('image/top-12.png');
+        background-repeat: no-repeat;
+        background-position: center;*/
+    }
+
+::placeholder {
+color: rgb(176 176 176);
+opacity: 1; /* Firefox */
+
+}
+
+
+
+.SearchDiv .btnSearch {
+    color: #fff;
+    min-width: 50px;
+    background-color: #62CBC9;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 0;
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 9px;
+    font-size: 1rem;
+    border-radius: 3px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    position: absolute;
+    right: 0;
+    font-size: larger;
+    border-radius: 0 15px 15px 0;
+}
+
+.flex-grid-card {
+    width: 80%;
+    display: flex;
+    margin:50px auto;
+
+}
+@media only screen and (max-width: 821px) {
+    .SearchTop {
+        width: 50%;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .SearchTop {
+        width: 100%;
+        justify-content: end;
+    }
+
+    .SearchDiv {
+        width: 60%;
+        position: relative;
+    }
+
+        .SearchDiv .btnSearch {
+            min-width: 25%;
+            font-size: 20px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 0;
+            padding: 5px;
+        }
+
+        .SearchDiv .textSearch {
+            font-size: medium;
+            border-radius: 3px;
+        }
+
+        .SearchDiv .btnSearch {
+            min-width: 25%;
+            font-size: 20px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 0;
+            padding: 5px;
+        }
+    }
+
+
+
+    .flex-grid {
+        display: flex;
+        justify-content: start;
+        margin: 50px auto;
+        flex-wrap: wrap;
+    }
+
+
+
+    .flex-grid-card-items {
+        position: relative;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        flex-direction: column;
+    }
+     .flex-grid-card-items img {
+        width: -webkit-fill-available;
+        height: 250px;
+    }
+
+       .flex-grid-card-items input[type=image] {
+        width: -webkit-fill-available;
+    }
+
+    .flex-grid-card-view {
+
+     position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+text-align: center;
+padding: 5px;
+background: rgba(2,2,2,.5);
+color: #fff;
+-webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+z-index: 0;
+-webkit-transform: translateY(100%);
+-ms-transform: translateY(100%);
+transform: translateY(100%);
+
+    }
+
+/*    .flex-grid-card-items:hover .flex-grid-card-view {
+        bottom: 33px;
+           
+    } */
+
+    .flex-grid-card-title {
+          padding-top: 32px;
+width: 100%;
+text-align: center;
+z-index: 1;
+background-color: white;
+color: #6ec1e4;
+font-size: 1em;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+margin-bottom: 0.5em;
+
+    }
+
+    .flex-grid-card-price {
+        padding:3px;
+        width: 100%;
+       text-align:center;
+       color: #7a7a7a;
+font-size: small;
+    }
+
+    .flex-grid-card-btn {
+        padding:5px;
+        width: 100%;
+       text-align:center;
+    }
+     .flex-grid-card-btn button {
+     display: inline-block;
+background-color: #6ec1e4;
+color: #fff;
+margin: 0.5em 0;
+line-height: 1.3;
+padding: 10px 40px;
+font-size: 100%;
+cursor: pointer;
+text-decoration: none;
+overflow: visible;
+font-weight: 700;
+background-image: none;
+border: none;
+-webkit-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: none;
+box-shadow: none;
+text-shadow: none;
+-webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+font-family: 'Roboto', sans-serif;
+height: 45px;
+}
+        .flex-grid-card-btn button:hover {
+             background-color: #42a2cb;
+        }
+
+        
+
+            @media only screen and (max-width: 550px) {
+    .flex-grid-card {
+        width:98%;
+            margin: 5px auto;
+    }
+    .flex-grid-card {
+        flex-direction: column;
+}
+    }
