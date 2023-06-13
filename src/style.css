@@ -8,6 +8,117 @@
     align-items: center;
     color: white;
 }
+
+
+nav {
+    width: 100%;
+    margin: 10px auto;
+    background: #616789;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-links {
+display: flex;
+width: 30%;
+margin-left: 25px;
+}
+
+    .nav-links a {
+        display: flex;
+        font-weight: 600;
+        justify-content: center;
+        text-decoration: none;
+        color: #fff;
+        border-bottom: 2px solid transparent;
+        transition: 0.2s ease-in-out;
+        transform: translateX(0%);
+        /* margin: 0 15px; */
+        height: 70px;
+        align-items: center;
+        width: 80px;
+    }
+
+        .nav-links a:hover {
+            color: #62CBC9;
+            font-size: large;
+        }
+
+    .nav-links .active {
+        color: #62CBC9;
+        font-size: large;
+    }
+
+
+    
+    @media only screen and (max-width: 460px) {
+        .nav-links {
+            width: 100%;
+            transition: All 0.5s ease;
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 99;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .nav-active {
+            transform: translateX(0);
+            width: 250px;
+        }
+
+        .nav-close {
+            transform: translateX(0);
+            width: 0px;
+        }
+
+        .nav-links a {
+            opacity: 0;
+            color: #616789;
+            height: 51px;
+            font-size: large;
+        }
+    }
+
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px,6px );
+    }
+
+    .toggle .line2 {
+        opacity: 0;
+    }
+
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-5px,-6px );
+    }
+
+    .nav-links .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
 .lineTop {
     width: 98%;
     margin: 2px auto;
@@ -292,3 +403,8 @@ height: 45px;
         flex-direction: column;
 }
     }
+
+
+
+
+
