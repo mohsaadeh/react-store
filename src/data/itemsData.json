@@ -1,0 +1,231 @@
+{
+    "data": [
+      {
+        "content_id": 1,
+        "item": "T-shirt",
+        "details": "Premium quality cotton t-shirt for everyday wear.",
+        "price": 19.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-4.jpg.webp",
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 2,
+        "item": "Jeans",
+        "details": "Classic denim jeans with a slim fit.",
+        "price": 39.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-3.jpg.webp",
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 7,
+        "item": "Dress",
+        "details": "Elegant dress for special occasions and formal events.",
+        "price": 59.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-8.jpg.webp",
+        "gender": "female",
+        "age": "adult"
+      },
+      {
+        "content_id": 11,
+        "item": "Sweater",
+        "details": "Warm and cozy sweater for cold weather.",
+        "price": 49.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-7.jpg.webp",
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 16,
+        "item": "Suit",
+        "details": "Elegant suit for formal occasions and business meetings.",
+        "price": 199.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-1.jpg.webp",
+
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 17,
+        "item": "Running Shorts",
+        "details": "Lightweight and moisture-wicking shorts for running.",
+        "price": 19.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-4.jpg.webp",
+
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 21,
+        "item": "Blouse",
+        "details": "Fashionable blouse for a trendy look.",
+        "price": 34.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-7.jpg.webp",
+        "gender": "female",
+        "age": "adult"
+      },
+      {
+        "content_id": 22,
+        "item": "Running Jacket",
+        "details": "Waterproof jacket for protection during rainy runs.",
+        "price": 59.99,
+        "category": "Apparel",
+        "image": "https://example.com/images/runningjacket.jpg",
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 24,
+        "item": "Kids T-shirt",
+        "details": "Comfortable cotton t-shirt for kids.",
+        "price": 14.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-4.jpg.webp",
+
+        "gender": "male",
+        "age": "kids"
+      },
+      {
+        "content_id": 25,
+        "item": "Kids Jeans",
+        "details": "Stylish denim jeans for kids.",
+        "price": 29.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-7.jpg.webp",
+        "gender": "male",
+        "age": "kids"
+      },
+      {
+        "content_id": 29,
+        "item": "Kids Dress",
+        "details": "Adorable dress for kids' special occasions.",
+        "price": 39.99,
+        "category": "Apparel",
+        "image": "https://example.com/images/kidsdress.jpg",
+        "gender": "female",
+        "age": "kids"
+      },
+      {
+        "content_id": 31,
+        "item": "Kids Sweater",
+        "details": "Cozy sweater for keeping kids warm.",
+        "price": 24.99,
+        "category": "Apparel",
+        "image": "https://example.com/images/kidssweater.jpg",
+        "gender": "male",
+        "age": "kids"
+      },
+      {
+        "content_id": 32,
+        "item": "Kids Shorts",
+        "details": "Comfortable shorts for active kids.",
+        "price": 16.99,
+        "category": "Apparel",
+        "image": "https://example.com/images/kidsshorts.jpg",
+        "gender": "male",
+        "age": "kids"
+      },
+      {
+        "content_id": 33,
+        "item": "Kids Skirt",
+        "details": "Stylish skirt for fashionable kids.",
+        "price": 19.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-7.jpg.webp",
+        "gender": "female",
+        "age": "kids"
+      },
+      {
+        "content_id": 34,
+        "item": "Kids Hoodie",
+        "details": "Cozy hoodie for cool kids.",
+        "price": 29.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-4.jpg.webp",
+
+        "gender": "male",
+        "age": "kids"
+      },
+      {
+        "content_id": 35,
+        "item": "Kids Sneakers",
+        "details": "Stylish sneakers for active kids.",
+        "price": 39.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-1.jpg.webp",
+        "gender": "male",
+        "age": "kids"
+      },
+      {
+        "content_id": 36,
+        "item": "Sweatshirt",
+        "details": "Casual sweatshirt for everyday comfort.",
+        "price": 29.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-3.jpg.webp",
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 37,
+        "item": "Jacket",
+        "details": "Stylish jacket for a trendy look.",
+        "price": 59.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-1.jpg.webp",
+
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 38,
+        "item": "Skirt",
+        "details": "Versatile skirt for various occasions.",
+        "price": 34.99,
+        "category": "Apparel",
+        "image": "https://example.com/images/skirt.jpg",
+        "gender": "female",
+        "age": "adult"
+      },
+      {
+        "content_id": 39,
+        "item": "Hoodie",
+        "details": "Comfortable hoodie for a casual look.",
+        "price": 39.99,
+        "category": "Apparel",
+        "image": "https://example.com/images/hoodie.jpg",
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 40,
+        "item": "Sneakers",
+        "details": "Trendy sneakers for a sporty look.",
+        "price": 49.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-1.jpg.webp",
+
+        "gender": "male",
+        "age": "adult"
+      },
+      {
+        "content_id": 41,
+        "item": "Formal Shirt",
+        "details": "Elegant formal shirt for special occasions.",
+        "price": 44.99,
+        "category": "Apparel",
+        "image": "https://preview.colorlib.com/theme/malefashion/img/product/product-8.jpg.webp",
+        "gender": "male",
+        "age": "adult"
+      }
+    ]
+  }
+  

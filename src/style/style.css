@@ -1,0 +1,142 @@
+
+
+
+  .navbar-nav li  a {
+    color: #467989;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .navbar-nav li  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #467989;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .navbar-nav li  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+  
+  .nav-icon{
+    color: #467989;
+    display: flex;
+    gap:15px
+  }
+
+
+  .header-component{
+    background:black ;
+    padding:10px 100px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .text-end{
+text-transform: uppercase;
+
+
+  }
+
+  .text-end a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+
+  .image-search-component {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 700px) {
+  .search-box > p , h1{
+    display: none;
+  }
+  .text-start{
+    display: none;
+  }
+  .header-component{
+    padding: 10px 20px;
+  }
+}
+  
+  .search-box {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 30%;
+  }
+  .btnStyle{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    color: #ffffff;
+    background: #467989;
+    letter-spacing: 4px;
+    border: 1px solid #467989 ;
+  }
+
+  .btnStyle:hover{
+
+  
+    color: #467989;
+    background: #ffffff;
+
+  }
+  .search {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+  }
+  
+  .search {display: inline-block;}
+  
+  .search input {
+    width: 250px;
+    height: 32px;
+  
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+  }
+  
+  .search input { text-indent: 32px;}
+  .search .fa-search { 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .search .fa-search {left: auto; right: 10px;}
